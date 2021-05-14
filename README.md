@@ -11,3 +11,5 @@ Prerequisite is to have Terraform `v0.15.3` or higher installed.
 - Run `terraform init`.
 - Run `terraform apply`.
 - S3 & Cloudfront URLs will be output.
+
+Note: S3 bucket names must be unique, if you get an error then someone else has created the bucket and you'll need to update the name to something else in `terraform/s3.tf`
